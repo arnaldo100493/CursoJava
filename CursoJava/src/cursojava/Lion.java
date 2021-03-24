@@ -9,14 +9,10 @@ package cursojava;
  *
  * @author abarrios
  */
-public class TestClass {
+public class Lion {
 
-    public static void main(String[] args) {
-
+    public void roar(String roar1, StringBuilder roar2) {
+        roar1.concat("!!!");
+        roar2.append("!!!");
     }
-
-    public void metodo() {
-
-    }
-
 }
